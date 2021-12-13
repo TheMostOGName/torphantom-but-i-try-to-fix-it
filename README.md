@@ -16,36 +16,33 @@ If you are aware of another solution to this problem please submit a pull reques
 **Remember this tool is still in BETA and any risks you take or activties performed while using TorPhantom fall back on you (whether the app is in BETA or not)**
 
 
-1. macOS Support
-2. More Linux support (currently install script is for Debian based distros only)
-3. Add in arguments for more interfaces other than eth0 and wlan0 on both macOS and Linux (currently hardcoded)
+Right now it doesn't work for shit but i'm trying to make it work for Debian
 
 
 ## Linux:
 
 #### Debian/Ubuntu:
+The install script doesn't work so you have to do everything manually. It's only like four commands dw. 
 
+Install macchanger:
 ```sh
-chmod +x install.sh
-./install.sh
+sudo apt-get install macchanger -y -qq
+```
+Install tor bundle: 
+```sh
+sudo apt-get install tor -y -qq
+```
+Install torphantom:
+```sh
+sudo cp torphantom /usr/bin/torphantom
+```
+Fix torphantom perms: 
+```sh
+sudo chmod +x /usr/bin/torphantom
 ```
 
-#### Arch:
+After doing all that type run "torphantom" and see what happens. 
 
-```sh
-chmod +x install-pac.sh
-./install-pac.sh
-```
-
-
-#### RHEL/CentOS/Fedora:
-
-```sh
-chmod +x install-rpm.sh
-./install-rpm.sh
-```
-
-```sh
   _______         _____  _                 _                  
  |__   __|       |  __ \| |               | |                 
     | | ___  _ __| |__) | |__   __ _ _ __ | |_ ___  _ __ ___  
