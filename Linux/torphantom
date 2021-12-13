@@ -36,7 +36,7 @@ def sigint_handler(signum, frame):
 
 def logo():
 	subprocess.call(["clear"])
-	print bcolors.CYAN + bcolors.BOLD
+	print (bcolors.CYAN + bcolors.BOLD)
 	print ("""
   _______         _____  _                 _
  |__   __|       |  __ \| |               | |
