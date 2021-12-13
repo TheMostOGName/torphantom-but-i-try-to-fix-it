@@ -1,6 +1,6 @@
 # TorPhantom But I Try to Fix It
 ## BETA v0.1
-A fork of [TorGhost](https://github.com/susmithHCK/torghost) and torphantom(https://github.com/3ndG4me/torphantom), a little utilitly used to route all traffic through TOR.
+A fork of [TorGhost](https://github.com/susmithHCK/torghost) and [torphantom](https://github.com/3ndG4me/torphantom), a little utilitly used to route all traffic through TOR.
 
 Currently depends on macchanger and tor.
 
