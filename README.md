@@ -1,10 +1,10 @@
-# TorPhantom
-## BETA v0.9
-A fork of [TorGhost](https://github.com/susmithHCK/torghost), a little utilitly used to route all traffic through TOR.
+# TorPhantom But I Try to Fix It
+## BETA v0.1
+A fork of [TorGhost](https://github.com/susmithHCK/torghost) and torphantom(https://github.com/3ndG4me/torphantom), a little utilitly used to route all traffic through TOR.
 
 Currently depends on macchanger and tor.
 
-This script spoofs your mac address, and then routes all traffic through the TOR network. It is currently a WIP.
+This script spoofs your mac address, and then routes all traffic through the TOR network. It is currently a WIP. I'm trying to fix it to make it actually function for personal reasons
 
 ## Notice:
 macOS version does not route ALL traffic through TOR. The current configuration only routes MOST traffic through TOR via socks5 proxy. Any apps not configured to use this proxy (such as a curl call with no proxy flags) will not go through TOR. Proceed with caution!
